@@ -1,0 +1,11 @@
+{
+  "org": "sphinx-contrib",
+  "repo": "sphinx-lint",
+  "versions": [
+    {
+      "commit": "a3c2554c7c75f869483d297f7e369e4d027aa33c",
+      "tag": "",
+      "parsed_at": "2026-10-15T15:53:30.060798+00:00"
+    }
+  ]
+}
