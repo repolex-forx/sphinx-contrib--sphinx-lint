@@ -1,0 +1,16 @@
+[2026-11-22T00:59:51Z] === ENRICH ITERATION 1 START | repo=sphinx-contrib/sphinx-lint sha=c883505f ===
+[2026-11-22T00:59:51Z] [iter=1] PHASE START: enrich repo=sphinx-contrib/sphinx-lint sha=c883505f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c883505f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c883505f64b59c3c5c9375191e4ad9f98e727ccd.nq.gz
+[2026-11-22T00:59:55Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T00:59:55Z] [iter=1] AST store loaded triples=76128 load_secs=1 mem_mb=186 MB
+[2026-11-22T00:59:55Z] [iter=1] Step 2: Finding LSP targets mem_mb=186 MB
+[2026-11-22T00:59:55Z] [iter=1] LSP targets found call_sites=565 imports=38 extends=0 implements=0 secs=0
+[2026-11-22T00:59:55Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=186 MB
+[2026-11-22T00:59:56Z] [iter=1] Position index built positions=5206 nodes_with_types=6822 secs=0 mem_mb=186 MB
+[2026-11-22T00:59:56Z] [iter=1] Step 3: Starting LSP resolution mem_mb=186 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T00:59:56Z] [iter=1] Resolving target type target_type=call_site count=565
+[2026-11-22T01:00:18Z] [iter=1] Target type resolved target_type=call_site resolved=398 errors=0 secs=22 mem_mb=186 MB
+[2026-11-22T01:00:18Z] [iter=1] Resolving target type target_type=import_statement count=38
+[2026-11-22T01:00:19Z] [iter=1] Target type resolved target_type=import_statement resolved=35 errors=0 secs=2 mem_mb=186 MB
+[2026-11-22T01:00:27Z] [iter=1] Step 5: Writing final enrichment file triples=6372
+[2026-11-22T01:00:27Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c883505f64b59c3c5c9375191e4ad9f98e727ccd.nq.gz size_kb=120
+[2026-11-22T01:00:27Z] [iter=1] PHASE END: enrich elapsed_s=36 elapsed_min=0.6 total_triples=6372

@@ -270,6 +270,53 @@
       ],
       "ast": [
         "aggregate/ast/c883505f64b59c3c5c9375191e4ad9f98e727ccd/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c883505f64b59c3c5c9375191e4ad9f98e727ccd.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "polib",
+          "ecosystem": "PYPI",
+          "version": "1.2.0",
+          "githubOrg": "izimobil",
+          "githubRepo": "polib",
+          "githubCommit": "f7854ac57527485f665ff6b58f4374d5516b25dc",
+          "githubTag": "1.2.0",
+          "githubUrl": "https://github.com/izimobil/polib",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "regex",
+          "ecosystem": "PYPI",
+          "version": "2026.11.19",
+          "githubOrg": "mrabarnett",
+          "githubRepo": "mrab-regex",
+          "githubCommit": "3817c5d290069c5318674fb521edde3355d8f440",
+          "githubTag": "2026.11.19",
+          "githubUrl": "https://github.com/mrabarnett/mrab-regex",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+          "githubTag": "v7.1.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
