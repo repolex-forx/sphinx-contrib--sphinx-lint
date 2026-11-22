@@ -317,7 +317,9 @@
           "githubUrl": "https://github.com/pytest-dev/pytest-cov",
           "source": "build_file:pyproject.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/c883505f64b59c3c5c9375191e4ad9f98e727ccd/chunk-001.nq.gz",
+      "dep": "dep/c883505f64b59c3c5c9375191e4ad9f98e727ccd.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
