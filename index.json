@@ -3,6 +3,11 @@
   "repo": "sphinx-lint",
   "versions": [
     {
+      "commit": "c883505f64b59c3c5c9375191e4ad9f98e727ccd",
+      "tag": "v1.0.2",
+      "parsed_at": "2026-11-22T01:03:19.566251+00:00"
+    },
+    {
       "commit": "a3c2554c7c75f869483d297f7e369e4d027aa33c",
       "tag": "",
       "parsed_at": "2026-10-15T15:53:30.060798+00:00"
